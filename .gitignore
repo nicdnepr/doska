@@ -1,0 +1,8 @@
+.idea/
+www/assets/
+www/images/upload/
+vendor/
+protected/runtime/
+composer.lock
+local.php
+nbproject/

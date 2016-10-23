@@ -1,0 +1,1 @@
+Review advert <?= $this->createAbsoluteUrl('advert/update', ['id'=>$advert->id]) ?>

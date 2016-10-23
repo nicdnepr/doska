@@ -1,0 +1,89 @@
+.separator {
+    height:0;
+    border:1px solid #ccc;
+    margin:20px;
+}
+
+.asterisk {
+    padding-left:3px;
+    color:red;
+}
+
+#payment-form {
+    margin-top:10px;
+}
+
+#payment-form img {
+    max-width:100%;
+}
+
+
+#payment-form label {
+    font-size: 1.3em;
+    font-weight:normal;
+}
+
+#payment-form .form-control {
+    border-radius: 30px;
+    border: 1px solid grey;
+    height: 40px;
+}
+
+#payment-form .form-group {
+    margin-right:15px;
+}
+
+#payment-form .btn, #payment-form .btn:hover {
+    background:url("../img/bg-blue.png") repeat-x;
+    color:#fff;
+    width:200px;
+    height:40px;
+    border-radius:40px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+div.spinner {
+    display: inline-block;
+    position: Relative;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+div.spinner:before,
+div.spinner:after {
+    background: white;
+    right: 0px;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    pointer-events: none;
+}
+div.spinner:before {
+    content: '';
+    bottom: 53%;
+    background: url('../img/triangle_up.png') no-repeat #81a2cd;
+    background-size: 10px;
+    background-position: center;
+    border-top-right-radius:20px;
+}
+div.spinner:after {
+    content: '';
+    top: 47%;
+    background: url('../img/triangle_down.png') no-repeat #5893cd;
+    background-size: 10px;
+    background-position: center;
+    border-bottom-right-radius:20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .border-right {
+        border-right:1px solid gray;
+    }
+}

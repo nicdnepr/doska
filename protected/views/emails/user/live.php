@@ -1,0 +1,1 @@
+Advert is live <?= $this->createAbsoluteUrl('advert/display', ['id'=>$advert->id]) ?>

@@ -1,0 +1,1 @@
+User <?= $user->email ?> paid for advert <?= $this->createAbsoluteUrl('advert/update', ['id'=>$advert->id]) ?>
